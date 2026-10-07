@@ -1,0 +1,16 @@
+WEATHER PATTERN ANALYSIS - KEY INSIGHTS
+=======================================
+1. Dataset: 2192 daily records (2020-01-01 to 2025-12-31).
+2. Hottest month: May (32.6 °C avg).
+3. Wettest month: Oct (335 mm/yr avg); driest: Feb.
+4. Wettest year: 2022 (1724 mm); driest year: 2020 (1418 mm).
+5. Long-term temperature trend: -0.063 °C per year (cooling).
+6. Rainfall-humidity correlation: 0.36 (higher humidity -> more rain).
+7. Hot days (>= 38.2 °C): 110; heavy rain days (>= 50 mm): 12.
+8. Random Forest rain-tomorrow model accuracy: 74.2%.
+   Top predictors: humidity, month, temp_max.
+
+RECOMMENDATIONS
+- Plan outdoor/agri activities outside the monsoon peaks.
+- Monitor rising hot-day counts for heat-stress preparedness.
+- Top model features (see chart 09) are the strongest rain signals.
